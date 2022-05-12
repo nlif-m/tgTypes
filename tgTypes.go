@@ -11,3 +11,7 @@ type User struct {
 	Can_read_all_group_messages bool   `json:"can_read_all_group_messages"`
 	Supports_inline_queries     bool   `json:"supports_inline_queries"`
 }
+
+type MessageId struct {
+	Message_id int `json:"message_id"`
+}
